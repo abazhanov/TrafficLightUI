@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4E12F72666483E00573298 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E12F62666483E00573298 /* ColorCircle.swift */; };
 		FABA4B9B26663DC2003D5413 /* TrafficLightUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA4B9A26663DC2003D5413 /* TrafficLightUIApp.swift */; };
 		FABA4B9D26663DC2003D5413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA4B9C26663DC2003D5413 /* ContentView.swift */; };
 		FABA4B9F26663DC4003D5413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABA4B9E26663DC4003D5413 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4E12F62666483E00573298 /* ColorCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 		FABA4B9726663DC2003D5413 /* TrafficLightUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA4B9A26663DC2003D5413 /* TrafficLightUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightUIApp.swift; sourceTree = "<group>"; };
 		FABA4B9C26663DC2003D5413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				FABA4B9A26663DC2003D5413 /* TrafficLightUIApp.swift */,
 				FABA4B9C26663DC2003D5413 /* ContentView.swift */,
+				FA4E12F62666483E00573298 /* ColorCircle.swift */,
 				FABA4B9E26663DC4003D5413 /* Assets.xcassets */,
 				FABA4BA326663DC4003D5413 /* Info.plist */,
 				FABA4BA026663DC4003D5413 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				FABA4B9D26663DC2003D5413 /* ContentView.swift in Sources */,
 				FABA4B9B26663DC2003D5413 /* TrafficLightUIApp.swift in Sources */,
+				FA4E12F72666483E00573298 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
