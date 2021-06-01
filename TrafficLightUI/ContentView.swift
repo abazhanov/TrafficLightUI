@@ -52,11 +52,14 @@ struct ContentView: View {
                 }) {
                     Text(nameButton)
                         .font(.title)
-                        .frame(width: 130, height: 50)
+                        .frame(width: 180, height: 50)
+                        .background(RoundedRectangle(cornerRadius: 20).fill(Color.blue))
+                        .foregroundColor(.white)
                         .overlay(
                             RoundedRectangle(cornerRadius: 20)
                                 .stroke(Color.white, lineWidth: 4))
                 }
+                
             }
         }
     }
